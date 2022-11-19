@@ -24,4 +24,4 @@ def weather_by_city(city_name):
 
 
 if __name__ == '__main__':
-    print('В Москве {}, {}. Ощущается как {}'.format(*weather_by_city('Moscow, Russia')))
+    print('В Москве {}, {}. Ощущается как {}'.format(*weather_by_city('Moscow,Russia')))
