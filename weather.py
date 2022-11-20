@@ -2,7 +2,7 @@ import requests
 
 
 def weather_by_city(city_name):
-    weather_url = 'http://api.worldweatheronline.com/premium/v1/weather.ashx'
+    weather_url = 'ht_tp://api.worldweatheronline.com/premium/v1/weather.ashx'
     params = {
         'key': '5d20b324861d406ab66183759221911',
         'q': city_name,
